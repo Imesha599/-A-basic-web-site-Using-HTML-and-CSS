@@ -1,0 +1,59 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+
+.header{
+	background-color:ECECF5;
+	padding: 10px 10px 10px 10px;
+	width:100%;
+	height:90px;
+}
+
+.content{
+	width:100%;
+	height:700px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/hotel1.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;	
+}
+
+.footer{
+	width:100%;
+	height:100px;
+	background-color:ECECF5;
+}
+
+ ul{
+	text-align:right;
+	padding-top:30px;
+	list-style-type:none;
+}
+
+ ul li{
+padding:25px;
+margin:15px;
+display:inline;
+}
+
+ ul li a{
+	text-decoration:none;
+	color:black;
+}
+li a:hover{
+	color:1666BC;
+}
+	
+.text{
+	text-transform: translateY(-50%);
+	top:50%;
+	width:100%;
+	position:absolute;
+    color:ECECF5;
+	margin-left:100px;
+	font-size:100pt;
+	font-family:brush script mt;
+}
+
